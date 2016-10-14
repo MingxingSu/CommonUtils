@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1EF20B5-FD16-4617-91E7-A7FC1AAB5921}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>MaxSu.Framework.Common</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>MaxSu.Framework.Common</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ActiveDirectoryHelper.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ArrayLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chinese\ChinaDate.cs" />
+    <Compile Include="Chinese\ChineseCalendarDate.cs" />
+    <Compile Include="Collections\DayCollection.cs" />
+    <Compile Include="Collections\DictionaryList.cs" />
+    <Compile Include="Collections\FlexDictionary.cs" />
+    <Compile Include="Collections\Generic\AVLNode.cs" />
+    <Compile Include="Collections\Generic\AVLTree.cs" />
+    <Compile Include="Collections\Generic\AVLTree.ICollection.cs" />
+    <Compile Include="Collections\Generic\AVLTree.IEnumerable.cs" />
+    <Compile Include="Collections\Generic\BinarySearchTree.cs" />
+    <Compile Include="Collections\Generic\BinarySearchTree.ICollection.cs" />
+    <Compile Include="Collections\Generic\BinarySearchTree.IEnumerable.cs" />
+    <Compile Include="Collections\Generic\BinarySearchTreeNode.cs" />
+    <Compile Include="Collections\Generic\Colour.cs" />
+    <Compile Include="Collections\Generic\Exceptions\InvalidTreeException.cs" />
+    <Compile Include="Collections\Generic\Exceptions\ValueNotFoundException.cs" />
+    <Compile Include="Collections\Generic\Heap.cs" />
+    <Compile Include="Collections\Generic\HeapType.cs" />
+    <Compile Include="Collections\Generic\IBinarySearchTree.cs" />
+    <Compile Include="Collections\Generic\RedBlackNode.cs" />
+    <Compile Include="Collections\Generic\RedBlackTree.cs" />
+    <Compile Include="Collections\Generic\RedBlackTree.ICollection.cs" />
+    <Compile Include="Collections\Generic\RedBlackTree.IEnumerable.cs" />
+    <Compile Include="Collections\Generic\SkipList.cs" />
+    <Compile Include="Collections\Generic\SkipList.ICollection.cs" />
+    <Compile Include="Collections\Generic\SkipList.IEnumerable.cs" />
+    <Compile Include="Collections\Generic\SkipListNode.cs" />
+    <Compile Include="Collections\SortedDictionaryList.cs" />
+    <Compile Include="Collections\ValueDictionary.cs" />
+    <Compile Include="ConfigurationFile.cs" />
+    <Compile Include="Data\Csv\Csv.cs" />
+    <Compile Include="Data\Csv\CsvToXml.cs" />
+    <Compile Include="Data\Xml\DynamicXElement.cs" />
+    <Compile Include="Date\DayRange.cs" />
+    <Compile Include="Excel\ExcelConnect.cs" />
+    <Compile Include="Extensions\ByteArrayExtensions.cs" />
+    <Compile Include="CaptchaGenerator.cs" />
+    <Compile Include="Extensions\ClassExtensions.cs" />
+    <Compile Include="Chinese\ChineseCalendar.cs" />
+    <Compile Include="ConfigManager.cs" />
+    <Compile Include="Extensions\DbNullExtensions.cs" />
+    <Compile Include="Extensions\DateEx.cs" />
+    <Compile Include="Extensions\DictionaryEx.cs" />
+    <Compile Include="Extensions\IDictionaryEx.cs" />
+    <Compile Include="Extensions\IEnumerableEx.cs" />
+    <Compile Include="Extensions\ListEx.cs" />
+    <Compile Include="Extensions\ObjectEx.cs" />
+    <Compile Include="Extensions\RandomEx.cs" />
+    <Compile Include="Extensions\StringBuilderEx.cs" />
+    <Compile Include="Extensions\StringEx.cs" />
+    <Compile Include="FileItem.cs" />
+    <Compile Include="Ftp\UploadFileToFTP.cs" />
+    <Compile Include="Geometry\PointD.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\ILoggerFactory.cs" />
+    <Compile Include="Logging\LoggerFactory.cs" />
+    <Compile Include="Mail\MailAttachments.cs" />
+    <Compile Include="Mail\MailFormat.cs" />
+    <Compile Include="Mail\MailMessage.cs" />
+    <Compile Include="Mail\MailPriority.cs" />
+    <Compile Include="Mvvm\MessengerCenter.cs" />
+    <Compile Include="Mvvm\ModelBase.cs" />
+    <Compile Include="Mvvm\Progress\ProgressTaskViewModel.cs" />
+    <Compile Include="Mvvm\Progress\ProgressViewModel.cs" />
+    <Compile Include="Mvvm\Progress\ProgressWorkerViewModel.cs" />
+    <Compile Include="Mvvm\RelayCommand.cs" />
+    <Compile Include="Mvvm\SupervisorViewModel.cs" />
+    <Compile Include="Mvvm\ViewModelBase.cs" />
+    <Compile Include="Mvvm\WorkspaceViewModel.cs" />
+    <Compile Include="NumbericConverter.cs" />
+    <Compile Include="ConvertToJsonHelper.cs" />
+    <Compile Include="Crypt\CryptoLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CsvLibrary.cs" />
+    <Compile Include="DatabaseLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DateTimeLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extensions\DatasetExtension.cs" />
+    <Compile Include="Extensions\DecimalExtensions.cs" />
+    <Compile Include="DisposableResource.cs" />
+    <Compile Include="Extensions\DoubleExtensions.cs" />
+    <Compile Include="Numerical\Data.cs" />
+    <Compile Include="Numerical\Matrix.cs" />
+    <Compile Include="Numerical\XYDataSet.cs" />
+    <Compile Include="ProcessRunner.cs" />
+    <Compile Include="RegisterHelper.cs" />
+    <Compile Include="ResourceManager\Item.cs" />
+    <Compile Include="ResourceManager\Items.cs" />
+    <Compile Include="ResourceManager\ResourcesSerializer.cs" />
+    <Compile Include="Resources\Errors.Designer.cs" />
+    <Compile Include="Segment.cs" />
+    <Compile Include="Smtp\SmtpClient.cs" />
+    <Compile Include="Smtp\SmtpMail.cs" />
+    <Compile Include="SqlHelperParameterCache.cs" />
+    <Compile Include="StringWriterUTF8.cs" />
+    <Compile Include="Utility\BenchmarkTimer.cs" />
+    <Compile Include="Utility\DateTimeUtil.cs" />
+    <Compile Include="Utility\DictionaryUtil.cs" />
+    <Compile Include="Utility\FileUtil.cs" />
+    <Compile Include="Utility\ListUtil.cs" />
+    <Compile Include="Utility\NumberUtil.cs" />
+    <Compile Include="Utility\PathUtil.cs" />
+    <Compile Include="Utility\ProcessUtil.cs" />
+    <Compile Include="Utility\StringUtil.cs" />
+    <Compile Include="ValidationImageHelper.cs" />
+    <Compile Include="Web\DownloadEventArgs.cs" />
+    <Compile Include="Web\Fetch.cs" />
+    <Compile Include="FileManager.cs" />
+    <Compile Include="IO\DownLoadHelper.cs" />
+    <Compile Include="IO\FileDown.cs" />
+    <Compile Include="IO\FileUp.cs" />
+    <Compile Include="IO\UpLoadFiles.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Extensions\FloatExtensions.cs" />
+    <Compile Include="Ftp\FTPClient.cs" />
+    <Compile Include="Ftp\FtpHelper.cs" />
+    <Compile Include="Web\UploadEventArgs.cs" />
+    <Compile Include="ImageHelper.cs" />
+    <Compile Include="InfFileHelper.cs" />
+    <Compile Include="Extensions\IntExtensions.cs" />
+    <Compile Include="Web\JavaScriptHelper.cs" />
+    <Compile Include="Extensions\LinqExtensions.cs" />
+    <Compile Include="Extensions\LongExtensions.cs" />
+    <Compile Include="LzwDecoder.cs" />
+    <Compile Include="MathLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MediaHandler.cs" />
+    <Compile Include="NetHelper.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Chinese\ChineseChars.cs" />
+    <Compile Include="Psd2SwfHelper.cs" />
+    <Compile Include="RegexDao.cs" />
+    <Compile Include="ResourceManager\AppMessage.cs" />
+    <Compile Include="ResourceManager\ResourceManager.cs" />
+    <Compile Include="ResourceManager\ResourceManagerWrapper.cs" />
+    <Compile Include="ResourceManager\Resources.cs" />
+    <Compile Include="Crypt\DEncrypt.cs" />
+    <Compile Include="Crypt\DESEncrypt.cs" />
+    <Compile Include="Crypt\Encrypt.cs" />
+    <Compile Include="Crypt\HashEncode.cs" />
+    <Compile Include="Crypt\MySecurity.cs" />
+    <Compile Include="Crypt\RSACryption.cs" />
+    <Compile Include="SegList.cs" />
+    <Compile Include="Collections\SerializableDictionary.cs" />
+    <Compile Include="SerializeHelper.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="Smtp\SmtpServerHelper.cs" />
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="StringLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SysHelper.cs" />
+    <Compile Include="TimeHelper.cs" />
+    <Compile Include="TypeList.cs" />
+    <Compile Include="Web\MultipartForm.cs" />
+    <Compile Include="Web\UrlOper.cs" />
+    <Compile Include="Utilites.cs" />
+    <Compile Include="Rand.cs" />
+    <Compile Include="VideoConvert.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CacheLibrary.cs" />
+    <Compile Include="Web\CookieLibrary.cs" />
+    <Compile Include="Web\SessionLibrary.cs" />
+    <Compile Include="Web\SessionLibrary2.cs" />
+    <Compile Include="My\MyApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My\MyComputer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My\MyProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web\WebClient.cs" />
+    <Compile Include="Xml\XmlHelper.cs" />
+    <Compile Include="Xml\XmlSerializationHelper.cs" />
+    <Compile Include="Xml\XsltTransformer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ResourceManager\Sample.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Data\Sql\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Errors.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

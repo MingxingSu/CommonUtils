@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{0D8CA810-F46D-4CA8-8CDB-F09B7E53D0C6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Libraries\Microsoft.EnterpriseLibraries\System.Data.SqlServerCe.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\System.Data.SqlServerCe.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSu.Common.FileManager", "MaxSu.Common.FileManager\MaxSu.Common.FileManager.csproj", "{FCBF39A7-444F-4715-B536-DD4A2E312574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSu.Framework.Common", "MaxSu.Framework.Common\MaxSu.Framework.Common.csproj", "{C1EF20B5-FD16-4617-91E7-A7FC1AAB5921}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{32384DAD-0144-4458-B686-4A02378CED5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Libraries\Azur\Azur.XIFramework.Common.dll = ..\..\Libraries\Azur\Azur.XIFramework.Common.dll
+		..\..\Libraries\Azur\Azur.XIFramework.Configuration.dll = ..\..\Libraries\Azur\Azur.XIFramework.Configuration.dll
+		..\..\Libraries\Azur\Azur.XIFramework.dll = ..\..\Libraries\Azur\Azur.XIFramework.dll
+		..\..\Libraries\Azur\Azur.XIFramework.Silverlight.SVCFaultBehavior.dll = ..\..\Libraries\Azur\Azur.XIFramework.Silverlight.SVCFaultBehavior.dll
+		..\..\Libraries\Azur\Azur.XIFramework.Silverlight.XAPCacheHandler.dll = ..\..\Libraries\Azur\Azur.XIFramework.Silverlight.XAPCacheHandler.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Micosoft.Practice", "Micosoft.Practice", "{016FF8A5-5F87-4E30-9586-B04930D5EC00}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Caching.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Common.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Common.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapterV5.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapterV5.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Data.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Data.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Logging.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Logging.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.AzMan.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.AzMan.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Security.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WPF.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WPF.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.ServiceLocation.DLL = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.ServiceLocation.DLL
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.Configuration.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.Configuration.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.Interception.Configuration.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.Interception.Configuration.dll
+		..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.Interception.dll = ..\..\Libraries\Microsoft.EnterpriseLibraries\Microsoft.Practices.Unity.Interception.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "File", "File", "{202E816C-4381-48E7-BBAC-88E0929645FB}"
+	ProjectSection(SolutionItems) = preProject
+		..\Libraries\FileLibs\COM.Excel.dll = ..\Libraries\FileLibs\COM.Excel.dll
+		..\Libraries\FileLibs\Excel.dll = ..\Libraries\FileLibs\Excel.dll
+		..\Libraries\FileLibs\ICSharpCode.SharpZipLib.dll = ..\Libraries\FileLibs\ICSharpCode.SharpZipLib.dll
+		..\Libraries\FileLibs\itextsharp.dll = ..\Libraries\FileLibs\itextsharp.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBF39A7-444F-4715-B536-DD4A2E312574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBF39A7-444F-4715-B536-DD4A2E312574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBF39A7-444F-4715-B536-DD4A2E312574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBF39A7-444F-4715-B536-DD4A2E312574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EF20B5-FD16-4617-91E7-A7FC1AAB5921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EF20B5-FD16-4617-91E7-A7FC1AAB5921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EF20B5-FD16-4617-91E7-A7FC1AAB5921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EF20B5-FD16-4617-91E7-A7FC1AAB5921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32384DAD-0144-4458-B686-4A02378CED5D} = {0D8CA810-F46D-4CA8-8CDB-F09B7E53D0C6}
+		{016FF8A5-5F87-4E30-9586-B04930D5EC00} = {0D8CA810-F46D-4CA8-8CDB-F09B7E53D0C6}
+		{202E816C-4381-48E7-BBAC-88E0929645FB} = {0D8CA810-F46D-4CA8-8CDB-F09B7E53D0C6}
+	EndGlobalSection
+EndGlobal
